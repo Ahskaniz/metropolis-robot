@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "807cc94e-9d78-45db-9f24-42edd85ffd68",
+		"name": "Metropolis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "request_report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/robot/report",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"robot",
+						"report"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request_stop",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/robot/stop",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"robot",
+						"stop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request_start",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/robot/start",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"robot",
+						"start"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request_deactivate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/robot/disconnect",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"robot",
+						"disconnect"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request_run",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"route\": \"mpjyHx`i@VjAVKnAh@BHHX@LZR@Bj@Ml@WWc@]w@bAyAfBmCb@o@pLeQfCsDVa@@ODQR}AJ{A?{BGuAD_@FKb@MTUX]Le@^kBVcAVo@Ta@|EaFh@m@FWaA{DCo@q@mCm@cC{A_GWeA}@sGSeAcA_EOSMa@}A_GsAwFkAiEoAaFaBoEGo@]_AIWW{AQyAUyBQqAI_BFkEd@aHZcDlAyJLaBPqDDeD?mBEiA}@F]yKWqGSkI CmCIeZIuZi@_Sw@{WgAoXS{DOcAWq@KQGIFQDGn@Y`@MJEFIHyAVQVOJGHgFRJBBCCSKBcAKoACyA?m@^yVJmLJ{FGGWq@e@eBIe@Ei@?q@Bk@Hs@Le@Rk@gCuIkJcZsDwLd@g@Oe@o@mB{BgHQYq@qBQYOMSM GBUBGCYc@E_@H]DWJST?JFFHBDNBJ?LED?LBv@WfAc@@EDGNK|@e@hAa@`Bk@b@OEk@Go@IeACoA@a@PyB`@yDDc@e@K{Bi@oA_@w@]m@_@]QkBoAwC{BmAeAo@s@uAoB_AaBmAwCa@mAo@iCgAwFg@iDq@}G[uEU_GBuP@cICmA?eI?qCB{FBkCI}BOyCMiAGcAC{AN{YFqD^}FR}CNu@JcAHu@b@_E`@}DVsB^mBTsAQKkCmAg@[YQOIOvAi@[m@e@s@g@GKCKAEJIn@g@GYGIc@ScBoAf@{A`@uAlBfAG`@\",\n    \"velocity\": 2\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/robot/run",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"robot",
+						"run"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
